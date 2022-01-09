@@ -17,7 +17,7 @@ $(document).ready(() => {
         }
       })
       .then(() => {
-        GiphyService.getGif("Kanye West")
+        GiphyService.getGif("kanye-west")
           .then((response) => {
             if (response.data) {
               $("#showGif").html(`<img src="${response.data.images.original.url}">`);
