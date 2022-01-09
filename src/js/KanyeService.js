@@ -9,6 +9,6 @@ export default class KanyeService {
       })
       .catch((error) => {
         return error;
-      })
+      });
   }
 }
