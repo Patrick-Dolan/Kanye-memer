@@ -1,8 +1,8 @@
-# _{Application name here}_
+# _Kanye Memer_
 
-#### By _**{List of contributors}**_
+#### By _**Patrick Dolan**_
 
-#### _{Brief description of application}_
+#### _Creates a dynamic meme based on a random Kanye West quote and gif based on the quote._
 
 ## Github Pages Link
 
@@ -13,6 +13,7 @@
 * _HTML_
 * _CSS & Bootstrap_
 * _Javascript & jQuery_
+* _NPM & Webpack_
 
 ## Description
 
@@ -36,10 +37,10 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 ## Contact Me
 
 _Let me know if you run into any issues or have questions, ideas or concerns:_
-_[Author Email Here]_
+_dolanp1992@gmail.com_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_MIT_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2022_ _Patrick Dolan_
