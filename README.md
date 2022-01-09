@@ -6,7 +6,7 @@
 
 ## Github Pages Link
 
-[TITLE HERE Github Pages](https://patrick-dolan.github.io/APPLICATIONNAMEHERE/)
+[Kanye Memer](https://patrick-dolan.github.io/Kanye-memer/)
 
 ## Technologies Used
 
@@ -17,22 +17,22 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_A simple web app that pulls from two API's: one for a random Kanye West twitter post, and another for a random gif using kanye-west as the search term._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _First you'll need a Giphy developer account. You can sign up here: [Giphy Developers](https://developers.giphy.com/)_
+* _Go to your Giphy developer dashboard at [Dashboard](https://developers.giphy.com/dashboard/) and click create an App at the bottom. Choose API and follow the steps and it will give you your key._
+* _Download the repo by cloning or using the download button on Github._
+* _Open the project in vscode or your editor of choice and run <code>npm install</code> in your terminal_
+* _create a .env file in the root directory of the project and add the follow line to it:<br><code>GIPHY_KEY={KEY HERE}</code><br>Put the key that you got from your Giphy dashboard here (Dont put in the curly braces.)_
+* _Now use your terminal and type <code>npm run start</code>_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues_
 
 ## Contact Me
 
