@@ -1,5 +1,5 @@
 export default class KanyeService {
-  static getQuote(keyword) {
+  static getQuote() {
     return fetch(`https://api.kanye.rest/`)
       .then((response) => {
         if (!response.ok) {
