@@ -2,7 +2,7 @@
 
 #### By _**Patrick Dolan**_
 
-#### _Creates a dynamic meme based on a random Kanye West quote and gif based on the quote._
+#### _Creates a dynamic meme based on a random Kanye West quote and random gif based on Kanye West._
 
 ## Github Pages Link
 
