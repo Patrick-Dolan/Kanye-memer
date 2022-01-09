@@ -5,10 +5,20 @@
 </head>
 <body>
   <div class="container">
-    <button type="button" id="generateMeme" class="btn-primary">Generate Meme!</button>
     <div id="showGif"></div>
-    <div id="showQuote"></div>
+    <div>
+      <figure class="text-center">
+        <blockquote id="showQuote" class="blockquote">
+        </blockquote>
+        <figcaption id="showCaption" class="blockquote-footer">
+          Kanye West from Twitter
+        </figcaption>
+      </figure>
+    </div>
     <div id="showError"></div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button type="button" id="generateMeme" class="btn-primary btn btn-lg">Generate Meme!</button>
+    </div>
   </div>
 </body>
 </html>

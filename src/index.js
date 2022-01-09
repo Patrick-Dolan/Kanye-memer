@@ -11,7 +11,8 @@ $(document).ready(() => {
     KanyeService.getQuote()
       .then((response) => {
         if (response.quote) {
-          $("#showQuote").text(`${response.quote}`);
+          $("#showQuote.blockquote").text(`${response.quote}`);
+          $("#showCaption").show();
         } else {
           $("#showError").text(response.message);
         }
@@ -20,7 +21,7 @@ $(document).ready(() => {
         GiphyService.getGif("kanye-west")
           .then((response) => {
             if (response.data) {
-              $("#showGif").html(`<img src="${response.data.images.original.url}">`);
+              $("#showGif").html(`<img src="${response.data.images.original.url}" class="rounded mx-auto d-block">`);
             } else {
               $("#showError").text(response.message);
             }
